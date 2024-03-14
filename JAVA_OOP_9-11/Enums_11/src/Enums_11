@@ -1,0 +1,48 @@
+
+ENUMS
+
+enum is short for enumerators
+~Enum = it is a Special Class that contains a collection of constant values.
+They can represent words as Objects.
+
+USING ENUMS = AILEVEL level = AILevel.HARD;
+
+
+//when using conditional we can only use equal. so better to use switch case.
+ENUMS IN CONDITIONAL STATEMENT;
+
+AILevel level = AILevel.HARD;
+
+if(level == AILevel.EASY){
+
+}else if(level == AILevel.MEDIUM){
+
+}else if(level == AILevel.HARD){
+
+}
+
+//this is for switch cases
+//so we can decide which one we want
+
+   switch (level) {
+            case EASY:
+                break;
+            case MEDIUM:
+                break;
+            case HARD:
+                break;
+
+        }
+
+
+DECLARING Enums w/ Values
+
+enum USCurrency {
+
+    PENNY(O.01f), NICKLE(O.O5f), DIME(O.1f), QUARTER(O.25f);
+    float val;
+
+    USCurrency(float val){
+    this.val = val;
+    }
+}

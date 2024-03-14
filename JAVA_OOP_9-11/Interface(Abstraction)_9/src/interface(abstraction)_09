@@ -1,0 +1,39 @@
+-ABSTRACTION
+-INTERFACE
+-IMPLEMENTS keyword
+-USING Abstraction (Interface)
+
+
+ABSTRACTION = it is an oop technique that hides certain details and only shows the important information.
+
+It can be achieved in 2 ways:
+- Abstract Classes (Uses abstract modifier)
+- Interfaces (Uses implements keyword)
+
+INTERFACE = It is a full Abstract Class that is implemented in other classes.
+Any method you declare would be an abstract method by default you an use the default modifier to create a method with body the method would be static.
+Any variable that you declare would be static and final.
+
+IMPLEMENTS Keyword = it is used after the class name so that we can implement an interface in that certain class.
+Implemented interface requires the class to override every method inside the interface.
+We can implement 1 or more interfaces in each class.
+
+interface Animal{
+
+    void makeSound();
+
+}
+
+class Dog implements Animal{
+    void makeSound(){
+    //arf
+    }
+}
+
+class Cat implements Animal{
+    void makeSound(){
+    //meow
+    }
+}
+
+//WHEN USING INTERFACES THE INSTANCES NAME SHOULD NOT BE SAME LIKE WE DOIN IN INHERIT. THE POLYMORPHISM SHOULD NOT BE APPLIED. 
