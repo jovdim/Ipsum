@@ -1,0 +1,22 @@
+
+~What is Object Methods = are methods declared inside an Object Class. Object Methods are are considered as the Object's Purpose.
+
+CREATING Object Methods:
+Object Methods are same as the Methods we talked about.
+
+modifiers className class{
+    modifiers returntype methodName(arguments){
+    //Do Anything Here
+    }
+}
+
+example:
+
+public Character class(
+String name, dailog;
+int hp,mp,lvl;
+
+    void introduce() {
+    System.out.println("I am " + name);
+    }
+}

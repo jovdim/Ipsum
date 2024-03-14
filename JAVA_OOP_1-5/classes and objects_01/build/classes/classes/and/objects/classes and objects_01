@@ -1,0 +1,50 @@
+~what is OBJECT-ORIENTED PROGRAMMING  - it focuses on implementing real world objects using Classes to create variations of Objects, that has attribute and purpose. It helps us create much flexible and efficient code than procedural programming.
+
+~classes = classes act as blueprint of an object that we want to implement to our program. basing for attributes and purpose of the objects. they contain all the attributes and methods that your desired object should have.
+
+~objects = classes and objects are obviously different. it is created by instatiating a Class. It is anything that has an attribute and a purpose.
+Example: Person, Furniture and Food.
+
+~attributes = it is global variable to declare inside of the class. these are the global variables declread inside of the class our our object. It is used to create variations of an objects using only one class.
+
+CLASS Creation:
+
+modifiers className class{
+//Attributes
+//Methods or Purpose
+
+}
+
+example:
+
+public Person class{
+
+//Attributes
+String firstName;
+String lastName;
+char sex;
+int age
+
+//method and purpose
+}
+
+CLASS instantiation:
+
+className identifier = new className();
+
+example:
+
+Person p = new Person();
+
+
+ACCESSING attribute:
+
+className identifier = new className();
+
+WRITING attributes
+
+identifier.attibute = value;
+
+READING attributes
+
+System.out.println(identifier.attribute);

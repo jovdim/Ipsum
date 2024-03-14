@@ -1,0 +1,43 @@
+
+OVERLOADING CONSTRUCTORS.
+
+
+~Overloading Constructors = it is an oop technique  used to create multiple constructors with different arguments, it is used to cope up with the needs of certain instance of an object.
+
+it is like Method OverLoading.
+
+Create Multiple Methods w/ the Class Name and w/ Different Arguments
+
+modifiers class className{
+//attributes
+
+    className(arguments){
+
+
+    }
+
+    className(arguments){
+
+
+    }
+
+} 
+
+example:
+
+ class Employee{
+//attributes
+
+    Employee(arguments){
+
+
+    }
+
+    Employee(arguments){
+
+
+    }
+
+} 
+
+it have double constructors which is valid to class object too. as long as it has different parameters/arguments else it will get error.

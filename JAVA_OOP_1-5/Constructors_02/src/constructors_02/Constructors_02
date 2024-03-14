@@ -1,0 +1,44 @@
+
+
+~Constructors = it is the special method called when you instantiate a class/create an object(instantiate is just a fancy name overall meaning is just "create"). it is used to initialize the attributes of an object or run a block of code when an object is created
+
+CREATING Constructors:
+
+Constructor method are named after their Class Name.
+
+modifiers className class{
+
+//constructor is a method. special method
+    className(){
+     //constructor
+    }
+}
+
+Constructors are used to Initialize attributes
+
+public Product class{
+
+//this is called attribute.
+    String name;
+    float price;
+
+    Product(String name, float price){
+    this.name = name;
+    this.price = price;
+
+    }
+
+}
+
+
+THIS keyword:
+
+the this keyword refers to the class itself. The this keyword will enables you to access global variables inside the class if you have the same variable names in a parameter.
+
+USING Constructors:
+
+ClassName identifier = new ClassName(parameters);
+
+Product pl = new product("Milk", 250, of);
+Product p2 = new Product("Noodles",15.25f);
+Product p3 = new Product("Softdrinks",12.50f);

@@ -1,0 +1,45 @@
+-ECAPSULATION
+-GETTERS AND SETTERS
+
+~encapsulation = it is oop technique used to hide date from DIRECT ACCESS. it is used to capsulate the object to not access it directly.
+
+To use Encapsulation = Declare Attribute as PRIVATE
+
+modifiers className class{
+
+
+  //Private Attributes
+}
+
+example: 
+
+Public User class{
+
+private int userID;
+private String username;
+private String firstName,lastname;
+
+//so if the attributes is private we can't acess the attribute directly so we will use setters and getters.
+}
+
+
+
+GETTERS AND SETTERS = are method used to get and set encapsulated variables. 
+
+SETTER = it is a method used to set ecapsulated variables
+
+//setters only setting one value. compare to the special method known as constructors.
+
+void setUserId(Int userID){
+    this.userID = userID;
+ }
+
+GETTERS = it is a method used to get ecapsulated variables
+
+Int getUserID(){
+
+
+   return userID;
+
+
+}
