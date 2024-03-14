@@ -1,0 +1,79 @@
+
+-INHERITANCE
+-SUBCLASS AND SUPERCLASS
+-EXTENDS
+-SUPER keyword
+-OVERRIDING methods
+-OVERRIDING constructors
+
+
+~Inheritance = it is oop technique used to inherit attributes and methods from one CLASS TO ANOTHER. 
+
+~Superclass = it is the class where we will inherit the attributes and methods(parent class)
+~Subclass = it is the class who will inherit the attributes and methods from a superclass(parent class).subclass it the child class.
+
+~EXTENDS  = it is used after the class name and it indicates that the certain class will inherit from another class.
+
+modifiers class subClassName extends superClassName {
+
+//Attributes & Methods
+
+}
+
+example:
+
+class Person {
+String name,sex;
+int age;
+
+
+//Methods
+}
+
+
+//the Person class is inherited in toddler class so what ever Person class has, toddler as it too now. 
+class toddler extends Person{
+
+    void drink(){
+
+    //Print "Drinking Milk"
+    }
+}
+
+OVERRIDING Constructors = you are required to call the constructor of the superclass
+
+class person{
+
+        person(arguments){
+        //constructors
+        }
+}
+
+class toddler extends person{
+        
+        toddler(arguments){
+        super(arguments);
+//add attributes 
+        }
+
+
+}
+
+SUPER keyword = it can only be used by a subclass(child) and it is used to call their superclass so we can access their constructors, attributes and methods.
+
+OVERRIDING methods = to retain the Functionality from the Super Class use the Super Keyword w/ the Method name.
+
+class person{
+    void checkStatus(){
+
+    //output attributes
+    }
+}
+
+class toddler extendes person{
+
+void checkStatus(){
+super checkStatus();
+//add Functionalities
+}
+}
